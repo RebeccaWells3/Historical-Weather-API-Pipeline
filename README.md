@@ -10,6 +10,6 @@
     <li>event date: 05/29/2026</li>
 </ul>
 
-<p> 4/28 complete c1 , see udemy section 8, and more</p>
+<p> 5/3 complete c2 and go from there</p>
 
 <p>* see udemy section 9 for running .py files in main.py</p>
