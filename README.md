@@ -2,6 +2,14 @@
 
 <b> MAKE SURE TO COMMENT/DOCUMENT ON EACH SECTION OF C</b>
 
+<h2>Location and Date for Project</h2>
+<ul> 
+    <li>location: Olympia, Washington</li>
+    <li>latitude: 47.0449</li>
+    <li>longitude: -122.9017</li>
+    <li>date: 04/29/2027</li>
+</ul>
+
 <p> 4/28 complete c1 , see udemy section 8, and more</p>
 
-<p> see udemy section 9 for running .py files in main.py</p>
+<p>* see udemy section 9 for running .py files in main.py</p>
