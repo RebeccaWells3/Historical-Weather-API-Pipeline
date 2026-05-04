@@ -8,6 +8,7 @@
     <li>latitude: 47.0449</li>
     <li>longitude: -122.9017</li>
     <li>event date: 05/29/2026</li>
+    <li>timezone: american/los_angelos</li>
 </ul>
 
 <p> 5/3: intro to apis in pyhton-data camp (see reddit post) complete c2 (add return statement for aggregated variables? might go another way)and go from there</p>
