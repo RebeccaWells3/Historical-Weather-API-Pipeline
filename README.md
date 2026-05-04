@@ -10,6 +10,7 @@
     <li>event date: 05/29/2026</li>
 </ul>
 
-<p> 4/28 complete c1 , see udemy section 8, and more</p>
+<p> 5/3: intro to apis in pyhton-data camp (see reddit post) complete c2 (add return statement for aggregated variables? might go another way)and go from there</p>
 
+<p> *will learn rest apis for project- add to skills section of resume after </p>
 <p>* see udemy section 9 for running .py files in main.py</p>
