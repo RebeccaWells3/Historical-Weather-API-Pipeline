@@ -1,4 +1,5 @@
-from my_class&methods.py
+from my_class_and_methods import WeatherData
+
 #create custom error handling for input?
 
 #getting user input
