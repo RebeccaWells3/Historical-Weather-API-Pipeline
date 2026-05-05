@@ -1,7 +1,5 @@
 from my_class_and_methods import WeatherData
 
-#create custom error handling for input?
-
 #getting user input
 latitude = float(input("Enter latitude: "))
 longitude = float(input("Enter longitude: "))
@@ -12,4 +10,6 @@ year = int(input("Enter year: "))
 #set class to variable
 weather = WeatherData(latitude,longitude,month,day,year)
 
+#call class method
 weather.get_data()
+
