@@ -1,3 +1,4 @@
+
 from my_class_and_methods import WeatherData
 
 #add validation for input values
@@ -9,7 +10,8 @@ month = int(input("Enter month in numerical form: "))
 day = int(input("Enter day: "))
 year = int(input("Enter year: "))
 
-#set class to variable
+#c3
+#create instance of class
 weather = WeatherData(latitude,longitude,month,day,year)
 
 #call class method
