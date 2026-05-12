@@ -17,7 +17,7 @@ weather = WeatherData(latitude,longitude,month,day,year)
 #call class method
 weather.get_data()
 
-#
+#creates ORM record object representing one table row
 record = WeatherRecord(
     latitude = weather.latitude,
     longitude = weather.longitude,
@@ -38,4 +38,7 @@ record = WeatherRecord(
 #populates table
 session.add(record)
 session.commit()
+
+#query table
+record.query_record()
 
