@@ -100,23 +100,7 @@ class WeatherData:
         self.precip_min5yr = min(precip)
         self.precip_max5yr = max(precip)
 
-        #test values appending to lists
-       ''' print(f'temps: {temps}\n'
-              f'winds: {winds}\n'
-              f'precip: {precip}')
 
-        #aggregation tests
-        print(f'temp_avg5yr: {self.temp_avg5yr:.2f}')
-        print(f'temp_min5yr: {self.temp_min5yr:.2f}')
-        print(f'temp_max5yr: {self.temp_max5yr:.2f}')
-
-        print(f'wind_avg5yr: {self.wind_avg5yr:.2f}\n'
-        f'wind_min5yr: {self.wind_min5yr:.2f}\n'
-        f'wind_max5yr: {self.wind_max5yr:.2f}')
-
-        print(f'precip_sum5yr: {self.precip_sum5yr:.2f}')
-        print(f'precip_min5yr: {self.precip_min5yr:.2f}')
-        print(f'precip_max5yr: {self.precip_max5yr:.2f}')'''
 
 
 
