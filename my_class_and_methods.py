@@ -12,7 +12,6 @@ class WeatherData:
         self.year = year
 
         #five year aggregate instance variables/class attributes
-        #SHOULD I PUT THEM = NONE?
         #temperature
         self.temp_avg5yr = None
         self.temp_min5yr = None
@@ -26,6 +25,7 @@ class WeatherData:
         self.precip_sum5yr = None
         self.precip_min5yr = None
         self.precip_max5yr = None
+
 
     def get_data(self):
         '''retrieves past 5 years of weather data from api and aggregates values'''
@@ -60,7 +60,7 @@ class WeatherData:
 
                 #convert json response into python dictionary
                 data = response.json()
-                #return values associated w/ 'daily' key of dictionary-using indexing
+                #accessing values associated w/ 'daily' key of dictionary-using indexing
                 daily = data['daily']
 
                 temps.append(daily['temperature_2m_mean'][0])
@@ -71,7 +71,7 @@ class WeatherData:
             except requests.exceptions.RequestException as e:
                 print(f'something went wrong for year {yr}: {e}')
 
-            #catches missing dictionary keys
+            #catches trying to access dictionary keys that don't exist
             except KeyError as e:
                 print(f'Missing data for dictionary key for {yr}: {e}')
 
@@ -80,7 +80,7 @@ class WeatherData:
                 print(f'Data list empty for {yr}: {e}')
 
         #check list length = 5
-        if len(temps) == 0 or len(winds) == 0 or len(precip) == 0:
+        if len(temps) != 5 or len(winds) != 5 or len(precip) !=5:
             print("Missing weather data. Cannot calculate 5 year aggregates.")
             return
 
@@ -100,8 +100,8 @@ class WeatherData:
         self.precip_min5yr = min(precip)
         self.precip_max5yr = max(precip)
 
-        ''' #test values appending to lists
-        print(f'temps: {temps}\n'
+        #test values appending to lists
+       ''' print(f'temps: {temps}\n'
               f'winds: {winds}\n'
               f'precip: {precip}')
 
@@ -116,7 +116,7 @@ class WeatherData:
 
         print(f'precip_sum5yr: {self.precip_sum5yr:.2f}')
         print(f'precip_min5yr: {self.precip_min5yr:.2f}')
-        print(f'precip_max5yr: {self.precip_max5yr:.2f}') '''
+        print(f'precip_max5yr: {self.precip_max5yr:.2f}')'''
 
 
 
