@@ -36,3 +36,4 @@ Session = sessionmaker(bind=engine)
 
 #actual session created from factory
 session = Session()
+

@@ -1,6 +1,6 @@
 
 from my_class_and_methods import WeatherData
-
+from table class in SQLite import
 #add validation for input values
 
 #getting user input
