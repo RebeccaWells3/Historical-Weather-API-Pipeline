@@ -2,6 +2,7 @@
 from sqlalchemy import create_engine, Column, Integer, Float
 from sqlalchemy.orm import declarative_base, sessionmaker
 #c4
+#creates ORM system that tracks table definitions
 Base = declarative_base()
 
 class WeatherRecord(Base):
@@ -24,5 +25,14 @@ class WeatherRecord(Base):
     precip_min5yr = Column(Float)
     precip_max5yr = Column(Float)
 
-#create connection between python and SQLite file. if file doesn't exist yet, creates it
+#creates connection between python and SQLite file. if file doesn't exist yet, creates it
 engine = create_engine("sqlite:///weather.db")
+
+#create table
+Base.metadata.create_all(engine)
+
+#set up session. session = how insert/ query data(interaction w/ database)
+Session = sessionmaker(bind=engine)
+
+#actual session created from factory
+session = Session()
