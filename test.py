@@ -38,7 +38,7 @@ class TestWeatherData(unittest.TestCase):
         session = Session()
 
         #test data
-        test_record = record = WeatherRecord(
+        test_record = WeatherRecord(
             latitude = 47.0449,
             longitude = -122.9017,
             month = 5,
@@ -74,5 +74,4 @@ if __name__ == '__main__':
 
 
 
-#query inserted row and it matches expected values
 
