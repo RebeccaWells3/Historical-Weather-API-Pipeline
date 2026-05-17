@@ -10,11 +10,12 @@
     <li>timezone: american/los_angelos</li>
 </ul>
 
-<h2>progress notes:</h2>
+<h2>Section C progress notes:</h2>
 <ul>
     <li>C1 completed: created WeatherData class</li>
     <li>C2 completed: method written that uses API request logic</li>
     <li>C3 completed: main.py created, created instance of WeatherData class and called method</li>
     <li>C4 completed: made second class that creates table in SQLalchemy ORM</li>
     <li>C5 completed: C4 table populated</li>
+    <li>C6 completed: wrote method that queries C4 table. took screenshot of results</li>
 </ul>   
