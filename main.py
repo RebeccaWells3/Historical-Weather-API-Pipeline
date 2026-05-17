@@ -1,6 +1,7 @@
 from my_class_and_methods import WeatherData
 from class_sqlalchemy import WeatherRecord, session
-
+#put inside loop to make reusable ex) while on = True
+#make function for asking for input so it can be resused?
 #add validation for input values
 
 #getting user input
