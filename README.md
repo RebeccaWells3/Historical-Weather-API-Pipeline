@@ -1,21 +1,44 @@
-<h1>Title</h1>
+<h1 align="center">Historical Weather Data Pipeline</h1>
+---
+I built a Python application that takes user input, retrieves five years of historical weather data from a REST API, calculates aggregate weather statistics, and stores the results in a SQLite database.
 
-<b> MAKE SURE TO COMMENT/DOCUMENT ON EACH SECTION OF C</b>
+## Tools, Technologies, & Concepts Used: 
+---
+**Programming Language**
+    * Python
+**Libraries/Frameworks**
+    * Requests
+    * SQLAlchemy
+    * unittest
+** Database**
+    * SQLite
+**API/Data Source**
+    * [Open-Meteo Archive API](https://open-meteo.com/en/docs/historical-weather-api)
+**Development Tools**
+    * PyCharm
+    * Git
+    * GitLab
+**Concepts Demonstrated**
+    * Object-Oriented Programming (OOP)
+    * REST API integration
+    * JSON data parsing
+    * User input validation
+    * Exception handling
+    * Data aggregation
+    * ORM-based database interaction
+    * Unit testing
 
-<h2>Location and Date for Project</h2>
-<ul> 
-    <li>location: Olympia, Washington</li>
-    <li>latitude: 47.0449</li>
-    <li>longitude: -122.9017</li>
-    <li>timezone: american/los_angelos</li>
-</ul>
+## Requirements
+---
 
-<h2>Section C progress notes:</h2>
-<ul>
-    <li>C1 completed: created WeatherData class</li>
-    <li>C2 completed: method written that uses API request logic</li>
-    <li>C3 completed: main.py created, created instance of WeatherData class and called method</li>
-    <li>C4 completed: made second class that creates table in SQLalchemy ORM</li>
-    <li>C5 completed: C4 table populated</li>
-    <li>C6 completed: wrote method that queries C4 table. took screenshot of results</li>
-</ul>   
+
+
+
+
+
+sections: 
+requirements,
+how to run,
+inputs,
+outputs,
+how to run tests
