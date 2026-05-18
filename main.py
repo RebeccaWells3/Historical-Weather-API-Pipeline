@@ -60,7 +60,7 @@ def main():
     #call class method
     weather.get_data()
 
-    #prevent bad data being saved
+    #prevent incomplete data being saved
     if weather.temp_avg5yr is None:
         print("get_data function failed. try again")
         return
