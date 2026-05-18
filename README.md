@@ -53,11 +53,11 @@ python main.py
 - Automated unit testing with Python's unittest framework
 
 ## Project Structure
-- [`main.py`](https://gitlab.com/wgu-gitlab-environment/student-repos/rwel113/d493-scripting-and-programming-applications/-/blob/main/main.py?ref_type=heads) - Runs the application, collects user input, and saves processed records
-- [`my_class_and_methods.py`](https://gitlab.com/wgu-gitlab-environment/student-repos/rwel113/d493-scripting-and-programming-applications/-/blob/main/my_class_and_methods.py?ref_type=heads) - Contains the WeatherData class and API/data aggregation logic
-- [`class_sqlalchemy.py`](https://gitlab.com/wgu-gitlab-environment/student-repos/rwel113/d493-scripting-and-programming-applications/-/blob/main/class_sqlalchemy.py?ref_type=heads) - Defines the database model and SQLAlchemy session
-- [`test.py`](https://gitlab.com/wgu-gitlab-environment/student-repos/rwel113/d493-scripting-and-programming-applications/-/blob/main/test.py?ref_type=heads) - Contains unit tests for core project functionality
-- [`requirements.txt`](https://gitlab.com/wgu-gitlab-environment/student-repos/rwel113/d493-scripting-and-programming-applications/-/blob/main/requirements.txt?ref_type=heads) - Lists required Python packages
+- [`main.py`](https://github.com/RebeccaWells3/Historical-Weather-API-Pipeline/blob/main/main.py) - Runs the application, collects user input, and saves processed records
+- [`my_class_and_methods.py`](https://github.com/RebeccaWells3/Historical-Weather-API-Pipeline/blob/main/my_class_and_methods.py) - Contains the WeatherData class and API/data aggregation logic
+- [`class_sqlalchemy.py`](https://github.com/RebeccaWells3/Historical-Weather-API-Pipeline/blob/main/class_sqlalchemy.py) - Defines the database model and SQLAlchemy session
+- [`test.py`](https://github.com/RebeccaWells3/Historical-Weather-API-Pipeline/blob/main/test.py) - Contains unit tests for core project functionality
+- [`requirements.txt`](https://github.com/RebeccaWells3/Historical-Weather-API-Pipeline/blob/main/requirements.txt) - Lists required Python packages
 
 ## Testing
 This project includes unit tests for core functionality, including aggregate attribute initialization, data retrieval, and database record storage/retrieval.
