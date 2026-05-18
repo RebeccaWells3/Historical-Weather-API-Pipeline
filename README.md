@@ -67,3 +67,11 @@ Run tests with:
 ```bash
 python -m unittest
 ```
+
+## Sources Used
+- [Open-Meteo Historical Weather API](https://open-meteo.com/en/docs/historical-weather-api) 
+- [Python Documentation](https://docs.python.org/3/)
+- [SQLAlchemy Documentation](https://www.sqlalchemy.org/)
+- [Requests Library Documentation](https://requests.readthedocs.io/)
+- [GeeksforGeeks](https://www.geeksforgeeks.org/)
+
