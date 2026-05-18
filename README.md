@@ -1,5 +1,6 @@
 <h1 align="center">Historical Weather Data Pipeline</h1>
 ---
+
 I built a Python application that takes user input, retrieves five years of historical weather data from a REST API, calculates aggregate weather statistics, and stores the results in a SQLite database.
 
 ## Tools, Technologies, & Concepts Used: 
